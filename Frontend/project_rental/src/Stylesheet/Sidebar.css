@@ -1,0 +1,14 @@
+ .side_bar a{
+    color: white;
+ }
+ .side_bar a:hover{
+    color: rgb(251, 180, 2);
+ }
+ .Sidebar .content{
+     margin-left: 2%;
+    
+     padding: 2%;
+    border-style: solid;
+    border-color: rgb(101, 37, 37);
+      
+ }

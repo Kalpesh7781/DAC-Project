@@ -1,0 +1,22 @@
+.Footer{
+    background:black;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: serif;
+}
+.Footer a{
+    color: white;
+   
+}
+
+ 
+#links :hover
+{
+    color:orange;
+}
+
+.footer__link-title{
+    color:rgb(214, 206, 92);
+    font-weight: bold;
+}

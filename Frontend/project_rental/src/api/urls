@@ -1,0 +1,37 @@
+/*
+hondacity=  https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/04/Honda-city-VTEC.png
+fortuner= https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/04/toyota-fortuner.png
+swift dezire=  https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/04/suzuki-dzire.png
+nexon= https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/01/Nexon-EV-Front-left.png
+xuv = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/04/Mahindra-XUV700.png
+innova = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/02/Innova-Crysta-Front-left-8.png
+
+swift = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/02/Maruti-Suzuki-Swift-LF.png
+venue = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/01/Venue-Front-left-1.png
+i20 = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/02/i20-Front-left.png
+baleno = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/01/Baleno-Front-left.png
+sonet = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/01/Sonet-Front-left.png
+seltos = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/01/Seltos-Front-left.png
+breeza = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/02/Maruti-Brezza-17.07X18.2-cm.png
+creta = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/01/Creta-Front-left.png
+harrier = https://www.aldautoleasing.in/ugo/wp-content/uploads/2022/01/Harrier-Front-left.png
+
+
+*/
+
+/*
+
+trigger function
+
+DROP TRIGGER IF EXISTS `carrental`.`booking_AFTER_DELETE`;
+
+DELIMITER $$
+USE `carrental`$$
+CREATE DEFINER = CURRENT_USER TRIGGER `carrental`.`booking_AFTER_DELETE` AFTER DELETE ON `booking` FOR EACH ROW
+BEGIN
+insert into cancel values (old.booking_id,old.ammt,old.rental_date,old.returndate,old.car_id,old.user_user_no);
+END$$
+DELIMITER ;
+
+
+*/

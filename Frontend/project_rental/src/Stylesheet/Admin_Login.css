@@ -1,0 +1,33 @@
+.Admin_login a{
+    color: white;
+    }
+    .Login a:active{
+        color: rgb(255, 94, 0);
+    }
+    .Login a:hover{
+        color: orange;
+    }
+    .log_img{
+        padding: auto;
+        box-shadow:7%;
+    }
+    .Login{
+        padding: 0.5%;
+    }
+    .Login_in{
+        padding: 5%;
+    }
+    .Login_container
+    {
+         
+        margin-left: 4%;
+        margin-right: 4%;
+        padding:3%;
+       border-color: black;
+       border-radius:2rem;
+       border-style: solid; 
+      
+    }
+    input:invalid{
+        color: red;
+    }

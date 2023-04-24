@@ -1,0 +1,40 @@
+.signup a{
+    color: white;
+    }
+    .signup a:active{
+        color: rgb(255, 94, 0);
+    }
+    .signup a:hover{
+        color: orange;
+    }
+  
+    .Login{
+        padding: 0.5%;
+    }
+    .login_in{
+        padding: 5%;
+    }
+    .login_container
+    {
+         margin-top: 5%;
+         margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding:5%;
+       border-color: black;
+       border-radius:2rem;
+       border-style: solid; 
+      
+    }
+    .login_si a{
+    color:rgb(0, 64, 153);
+    }
+    input:invalid{
+        color: red;
+        border-style: dashed;
+        border-color: red;
+    }
+    input:invalid:hover{
+        border-style: solid;
+        border-color: red;
+    }

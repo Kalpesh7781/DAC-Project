@@ -1,0 +1,36 @@
+.Login a{
+color: white;
+}
+.Login a:active{
+    color: rgb(255, 94, 0);
+}
+.Login a:hover{
+    color: orange;
+}
+.log_img{
+    padding: auto;
+    box-shadow:7%;
+}
+.Login{
+    padding: 0.5%;
+}
+.login_in{
+    padding: 5%;
+}
+.login_container
+{
+     
+    margin-left: 4%;
+    margin-right: 4%;
+    padding:3%;
+   border-color: black;
+   border-radius:2rem;
+   border-style: solid; 
+  
+}
+.signup_ln a{
+color:rgb(0, 64, 153);
+}
+input:invalid{
+    color: red;
+}

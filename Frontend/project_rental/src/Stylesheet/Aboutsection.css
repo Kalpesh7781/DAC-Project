@@ -1,0 +1,20 @@
+.Aboutsection{
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  
+   
+}
+.Aboutsection p{
+      display: inline; 
+      padding-right: 5rem;
+     
+}
+.about__section-item{
+     padding-top: 1.5rem;
+}
+
+.section__subtitle{
+    padding-top: 3%;
+    font-weight: bold;
+}

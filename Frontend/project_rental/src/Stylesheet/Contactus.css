@@ -1,0 +1,24 @@
+.Contactus{
+    padding: 0.5%;
+    font-family: 'Times New Roman', Times, serif;
+    color:#000000;
+    
+}  
+.section__description p {
+    justify-content: center;
+    justify-items: center;
+}
+.contact__btn {
+    padding: 7px 15px;
+    background: #2d64a8;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  .Contactus a{
+    color: rgb(3, 87, 122);
+  }
+  .contact__info{
+    padding-top: 12%;
+  }

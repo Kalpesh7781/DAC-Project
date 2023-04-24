@@ -1,0 +1,24 @@
+.Navbar3{
+    color: rgba(233, 227, 227, 0.86);
+    font-family: serif;
+
+}
+ 
+ .Navbar3 a:active{
+    color: orange;
+}
+.Navbar3 a:hover{
+    color: orange;
+}
+.Navbar3:focus
+{
+color: orange;
+}
+.Navbar3 a{
+    color: rgb(255, 255, 255);
+   
+     
+
+}
+ 
+ 

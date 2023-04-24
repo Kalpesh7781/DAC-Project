@@ -1,0 +1,19 @@
+.Navbar1{
+     
+    font-family: serif;
+     color: white;
+ font-weight: 200;
+ 
+ padding: auto;
+ margin: auto;
+ 
+ 
+}
+.no{
+    color: white;
+    font-family: serif;
+  
+}
+a:link {
+    text-decoration: none;
+    }
