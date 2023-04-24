@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: admin
+Build-Jdk: 17.0.5
+Implementation-Title: carrentalbackend
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: project
+Implementation-URL: https://spring.io/projects/spring-boot/carrentalback
+ end
+Created-By: Maven Integration for Eclipse
+
